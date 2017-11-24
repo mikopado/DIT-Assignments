@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.miche.todoappcw3.ToDoManagerActivity">
+
+    <!--Todo Additional 5 - create two new items in menu for priority and deadline actions-->
+    <item
+        android:id="@+id/priority_tab"
+        android:title="@string/priority_tab_text"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/deadline_tab"
+        android:title="@string/deadline_tab_text"
+        app:showAsAction="always"/>
+</menu>

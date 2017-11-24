@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="quiz_layout" type="id" />
+    <item name="questionNumberTextView" type="id" />
+    <item name="flagImageView" type="id" />
+    <item name="guessCountryTextView" type="id" />
+    <item name="row1LinearLayout" type="id" />
+    <item name="button1row1" type="id" />
+    <item name="row2LinearLayout" type="id" />
+    <item name="row3LinearLyout" type="id" />
+    <item name="row4LinearLayout" type="id" />
+    <item name="answerTextView" type="id" />
+</resources>

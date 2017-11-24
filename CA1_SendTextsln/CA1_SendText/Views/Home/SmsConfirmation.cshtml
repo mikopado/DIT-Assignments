@@ -1,0 +1,29 @@
+﻿@model CA1_SendText.Models.ConfirmPageViewModel
+@{
+    ViewBag.Title = "Sms Confirmation";
+}
+
+<h1 class="text-center">@ViewBag.Title</h1>
+<div class="row">
+   
+    <div class="col-md-offset-3 col-md-6">
+
+        @Html.LabelFor(model => model.NameRecipient)
+        @Html.TextBoxFor(model => model.NameRecipient, new { @class="form-control", style="max-width:55%"})   
+        
+    </div>
+
+</div>
+<div class="row">
+    <div class="col-md-offset-3 col-md-6">
+        @Html.LabelFor(model => model.TextMessage)
+        @Html.TextAreaFor(model => model.TextMessage, new { @readonly = "readonly", text=Model.TextMessage, @class="form-control", rows="4", style="background-color:white"})
+       
+    </div>
+
+
+</div>
+@Html.ActionLink("Send new message", "Index", "Home")
+
+
+

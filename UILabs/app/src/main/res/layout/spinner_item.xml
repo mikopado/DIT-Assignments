@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--// TODO Additional 3 - create custom layout for the spinner item. Needed to set text color to black in this case-->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:textColor="#000000">
+
+</TextView>

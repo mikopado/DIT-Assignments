@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#00ff95</color>
+    <!--TODO Additional 1 - add colors for layout background based on status mode-->
+    <color name="status_notdone">#0fff00ff</color>
+    <color name="status_done">#0f00ffff</color>
+</resources>

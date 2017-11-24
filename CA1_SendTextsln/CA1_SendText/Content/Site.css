@@ -1,0 +1,56 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+label{
+    margin-right: 10px;
+    width: 100px;
+    text-align: right;
+}
+
+input{
+    max-width: 240px;    
+}
+textarea{
+    max-width: 305px;
+    resize: none;
+}
+
+#Prefix{
+    max-width: 60px;   
+}
+input.form-control, textarea.form-control{
+    display: inline-block;
+}
+.row, h1{
+    margin-bottom: 40px;
+}
+#message-confirmed{
+    display: inline-block;
+    max-width: 300px;
+}
+.field-validation-error {
+    display: inline-block;
+    width: 410px;
+    text-align: right;
+}
+#contacts-list{
+    margin-top: 40px;    
+}
+
+
+
+

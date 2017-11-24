@@ -1,0 +1,45 @@
+﻿@model IEnumerable<CA1_SendText.Models.Contact>
+
+@{
+    ViewBag.Title = "Contacts";
+}
+
+
+<table id="contacts-list" class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </th>
+            <th>
+                
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PhoneNumber.Prefix)
+                    @Html.DisplayFor(modelItem => item.PhoneNumber.PhoneNumber)
+                </td>
+                <td>
+                    @Html.ActionLink("Send Text", "Index", "Home", new { id=item.Id }, htmlAttributes: new { @class = "btn btn-success" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

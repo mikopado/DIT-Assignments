@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Todo Additional 3 - create a string array for priority options. To use for array adapter-->
+    <string-array name="priority_options">
+        <item>LOW</item>
+        <item>MED</item>
+        <item>HIGH</item>
+    </string-array>
+</resources>
