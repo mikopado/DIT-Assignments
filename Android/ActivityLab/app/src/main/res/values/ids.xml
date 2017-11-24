@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="onCreateTextView" type="id" />
+    <item name="onStartTextView" type="id" />
+    <item name="onResumeTextView" type="id" />
+    <item name="onRestartTextView" type="id" />
+    <item name="startActivityTwoBtn" type="id" />
+    <item name="activityOneLayout" type="id" />
+</resources>

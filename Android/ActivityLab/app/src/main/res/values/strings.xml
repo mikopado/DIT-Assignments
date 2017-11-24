@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Activity Lab</string>
+    <string name="onCreateTextView">onCreate() calls: %1$d</string>
+    <string name="onStartTextView">onStart() calls: %1$d</string>
+    <string name="onResumeTextView">onResume() calls: %1$d</string>
+    <string name="onRestartTextView">onRestart() calls: %1$d</string>
+    <string name="startActivityTwoBtn">Start Activity Two</string>
+    <string name="onCreateTextView2">onCreate() calls: %1$d</string>
+    <string name="onStartTextView2">onStart() calls: %1$d</string>
+    <string name="onResumeTextView2">onResume() calls: %1$d</string>
+    <string name="onRestartTextView2">onRestart() calls: %1$d</string>
+    <string name="closeActivityBtn">Close Activity</string>
+</resources>

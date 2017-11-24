@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mik.activitylab.ActivityTwo">
+
+    <TextView
+        android:id="@+id/onCreateTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/onCreateTextView2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/onStartTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/onStartTextView2" />
+
+    <TextView
+        android:id="@+id/onResumeTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/onResumeTextView2" />
+
+    <TextView
+        android:id="@+id/onRestartTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/onRestartTextView2" />
+
+    <Button
+        android:id="@+id/closeActivityBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/closeActivityBtn" />
+
+</LinearLayout>
